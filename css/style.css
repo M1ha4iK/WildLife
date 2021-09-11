@@ -1,0 +1,340 @@
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+.header {
+    background: url(../image/header/Fox.png) top no-repeat;
+    height: 780px;
+}
+.header_top {
+    height: 90px;
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+.header_column {
+    flex: 0 1 50%;
+}
+.header_logo {
+    background: url(../image/header/Frame.svg) left no-repeat;
+    padding: 0px 0px 0px 85px;
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 120px;
+}
+.header_logo span{
+    top: auto;
+    bottom: 0px;
+}
+
+.header_menu {
+    
+}
+.header-menu_list {
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header-menu_list li{
+    padding-right: 62px;
+    list-style-type: none;
+}
+
+.header-menu_link {
+    line-height: 0px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-menu_link span{
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 23px 10px 23px;
+}
+
+.header-menu_link:hover{
+    transition: all 0.3s ease 0s;
+    color: #CD6326;
+}
+
+.header-menu_link span:hover{
+    transition: all 0.3s ease 0s;
+    color: #CD6326;
+}
+
+
+
+
+.header_main {
+    display: block;
+    height: 500px;
+}
+.header-main_container {
+    padding: 0px 0px 0px 120px;
+}
+.header-main_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+    padding-top: 120px;
+    padding-bottom: 51px;
+}
+.header-main_text {
+    width: 274px;
+    height: 108px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    padding-bottom: 65px;
+}
+.header-main_button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    background: #CD6326;
+    color: white;
+    border: 1px #CD6326 solid;
+    padding: 16px 42px 17px 42px;
+    border-radius: 5px;
+}
+
+.header-main_button:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+
+
+.page {
+
+}
+.page_container {
+    display: block;
+    background-color: #cccccc;
+}
+.page-container_top {
+    text-align: center;
+    padding: 120px 0px 120px 0px;
+}
+
+.top-container_title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+.top-container_title span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.page-container_main {
+    
+}
+.main-container_arrows {
+
+}
+.main-container_slider {
+
+}
+
+.slider_text{
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    padding: 256px 0px 0px 0px;
+}
+
+.slider_text span{
+    color: #F7F7F7;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.slider-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-img1 {
+    margin-right: 60px;
+    background: url(../image/main/Deer.jpg) top no-repeat;
+    width: 300px;
+    height: 360px;
+}
+.slider-img2 {
+    background: url(../image/main/Squirrel.jpg) top no-repeat;
+    width: 300px;
+    height: 360px;
+}
+.slider-img3 {
+    margin-left: 60px;
+    background: url(../image/main/Bird.jpg) top no-repeat;
+    width: 300px;
+    height: 360px;
+}
+
+.slider-img1:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+.slider-img2:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+.slider-img3:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.page-container_bottom {
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+}
+.bottom-container_titile {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.bottom-container_feedback {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.bottom-container_input {
+
+}
+.input {
+    background: lightgrey;
+    border: 1px #666666 solid;
+    height: 50px;
+    width: 500px;
+    font-size: 23px;
+    padding-left: 15px;
+}
+.bottom-container_btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    background: #CD6326;
+    color: white;
+    border: 1px #CD6326 solid;
+    padding: 10px 30px 9px 30px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.bottom-container_btn:hover {
+    background: #af521c;
+}
+
+
+.footer {
+    background: url(../image/footer/footer-bg.jpg) top no-repeat;
+}
+.footer_container {
+    
+}
+.footer_content {
+    height: 208px;
+    display: flex;
+    align-items: center;
+}
+.footer_column {
+    justify-content: center;
+    flex: 0 1 33.33333333%;
+}
+
+
+.footer_logo {
+    background: url(../image/header/Frame.svg) left no-repeat;
+    padding: 0px 0px 0px 85px;
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 120px;
+}
+
+
+.footer_menu {
+    
+}
+.footer-menu_list {
+    display: flex;
+}
+.footer-menu_link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: white;
+    padding: 0px 47px 0px 0px;
+}
+
+.footer-menu_link:hover{
+    color: lightgreen;
+}
+
+.footer_social {
+
+}
+.footer-social_list {
+    display: flex;
+}
+.footer-social_link {
+    padding: 0px 27px 0px 0px;
+}
